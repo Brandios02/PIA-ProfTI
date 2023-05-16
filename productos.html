@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tecnologia Fresh</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Tecnologia fresh</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="laptop">
+        <h2>Laptop</h2>
+        <img src="img/laptop.jpg" alt="Laptop">
+        <p>Descripción de Laptop: Sistema operativo windows 11,</p> 
+            <p>8gb Ram, 500gb Disco duro</p>
+        <p>Precio: $13000.00</p>
+        <button onclick="agregarAlCarrito(13000)">Agregar al carrito</button>
+      </section>
+      <section class="celular">
+        <h2>Celular</h2>
+        <img src="https://tienda.monteprovidencia.com.mx/cdn/shop/products/G8Plusazul_1200x1200.png?v=1636763559" alt="Moto G8 Plus">
+        <p>Descripción del celular: Sistema operativo android,</p> 
+        <p>4gb de Ram, 64GB almacenamiento interno</p>
+        <p>Precio: $4000.00</p>
+        <button onclick="agregarAlCarrito(4000)">Agregar al carrito</button>
+      </section>
+      <section class="impresora">
+        <h2>Impresora</h2>
+        <img src="https://mediaserver.goepson.com/ImConvServlet/imconv/766fb9e69dc761e4d42e76e5bfaa647d6629a375/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=foto-ecotank-L8180-5-690x480" alt="Impresora">
+        <p>Impresora 2023, Impresión automática</p>
+        <p>a doble cara. Ahorra tiempo y máximiza </p>
+        <p>la productividad con la impresión automática</p>
+        <p>a doble cara y el escaneo de múltiples páginas.</p>
+        <p>Precio: $23000.00</p>
+        <button onclick="agregarAlCarrito(23000)">Agregar al carrito</button>
+      </section>
+      <section>
+        <h2>Carrito de compras</h2>
+        <ul id="carrito">
+          <li>Carrito vacío</li>
+        </ul>
+        <p> <span id="total"></span></p>
+      </section>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

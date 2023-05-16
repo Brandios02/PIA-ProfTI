@@ -1,0 +1,114 @@
+*{
+    color: #000000;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+header{
+    background-color: rgb(228, 241, 33);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+nav ul li {
+    margin-right: 500px;
+  }
+h1 {
+    background-color: #2905f7;
+    color: rgb(7, 3, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+
+#contenedor{
+    display: block;
+    height: 600px;
+    width: 1300px;
+}
+
+img{
+    width: 160px;
+    height: 160px;
+}
+#fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    align-self: center;
+    margin-top: 40px;
+    color: #fff;
+}
+
+#iconos {
+    background-color: rgb(228, 241, 33);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Tareas {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+}
+
+
+#a2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    color: #fff;
+}
+
+#final {
+    background-color: rgb(228, 241, 33);
+    border-radius: 5px;
+    width: 700px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+#final p{
+    width: 650px;
+    text-align:center;
+}
+
+a{
+    background-color: rgb(228, 241, 33);
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#imagen{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+body{
+    background-image: linear-gradient(rgba(255, 238, 0, 0.5), rgba(12, 24, 199, 0.5)),                  url("img/ELECRTONICA.jpg");
+}
